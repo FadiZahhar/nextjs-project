@@ -5,7 +5,7 @@ import styles from '../styles/Header.module.css';
 export default function Header () {
     return (
       <header className={styles.header}>
-      <div class={style.logo}>
+      <div class={styles.logo}>
       <Link href="/">
       <a>DJ Events</a>
       </Link>
